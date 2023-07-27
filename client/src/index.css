@@ -1,0 +1,23 @@
+:root {
+  --primary: #757ae9;
+  --secondary: #4caf50;
+  --white: #ffffff;
+  --grey: #9fa6af;
+  --light-grey: #cbd6e2;
+  --black: #33475b;
+  --red: #ff0000;
+}
+
+body {
+  margin: 0;
+  background-color: var(--white);
+  font-family: DM Sans, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
